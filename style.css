@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1 {
+    color:red;
+    font-size: 3rem;
+}
+
+.name-input {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.25em 0.5em;  
+}
+
+#players-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+#main-menu ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu ul li {
+    display: inline-block;    
+    /* background-color: green; */
+    padding: 0.25em 1em;
+}
+
+.main-menu-btns {
+    color: #111111;
+    background-color: lightblue;
+    min-width: 10em;
+    margin: 1em 0em;
+    height: 4em;
+}
+
+.main-menu-btns:hover,
+.main-menu-btns:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.name-container {
+    border: black 1px solid;
+    height: 4em; 
+    width: 50%; 
+    margin: 1em auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.warning {
+    color: darkred;
+    font-weight: bold;
+    display: none;
+}
+
+.fineprint {
+    font-style: italic;
+    font-size: 0.9rem;
+}

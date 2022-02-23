@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Games</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Game Generator</h1>
+                <nav class="" id="main-menu">
+                    <ul>
+                        <li ><button class="main-menu-btns" >Player List</button></li>
+                        <li><button class="main-menu-btns">Random Name</button></li>
+                        <li><button class="main-menu-btns">Teams</button></li>
+                        <li><button class="main-menu-btns">Tournaments</button></li>
+                    </ul>
+                </nav>
+            </header>
+            
+    
+            <section class="container" id="players-section">
+                <h2>Players</h2>
+                <input class="name-input" id="add-players-input">
+                <br>
+                <button class="players-btns" id="add-players-btn">Add</button>
+                <button class="players-btns" id="edit-players-btn">Edit</button>
+                <button class="players-btns" id="delete-players-btn">Delete All</button>
+                <ul id="players-list">
+                </ul>
+            </section>
+
+            <section class="container" id="random-name-section">
+                <h2>Random Name</h2>
+
+                <div class="name-container">
+                    <p id="random-name"></p>
+                </div>
+
+                <p class="warning" id="random-name-warning">Please add at least 2 Players!</p>                
+                <button id="random-name-btn">Pick Random Name</button>
+                <button class="reset-btns" id="random-name-reset">Reset</button>
+                <br>
+                <div>
+                    <input type="checkbox" id="random-name-checkbox"> 
+                    <p class="fineprint inline-block"><strong>Tick</strong> if you want to remove chosen Player from the pool</p>
+                </div>
+            </section>
+    
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
